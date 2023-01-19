@@ -11,12 +11,12 @@ public class HelloWorld
         userAge = float.Parse(Console.ReadLine());
         
         float jupiterYears = 11.86f;
-        float jupiterAge = userAge * jupiterYears;
+        float jupiterAge = userAge / jupiterYears;
         
         float journeyToJupiter = 9.0f;
         
         float newEarthAge = userAge + journeyToJupiter;
-        float newJupiterAge = newEarthAge * jupiterYears;
+        float newJupiterAge = newEarthAge / jupiterYears;
         
         Console.WriteLine(jupiterAge);
         Console.WriteLine(newEarthAge);
