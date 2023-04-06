@@ -1,6 +1,6 @@
 using System;
 
-public class Product {
+class Product {
     private string productName;
     private double price;
     private double weight;
@@ -21,7 +21,7 @@ public class Product {
     }
 }
 
-public class Buy : Product {
+class Buy : Product {
     private int quantity;
     private double totalPrice;
     private double totalWeight;
@@ -42,7 +42,7 @@ public class Buy : Product {
     }
 }
 
-public class Check : Buy {
+class Check : Buy {
     public void PrintReceipt() {
         Console.WriteLine("Product name: " + ProductName);
         Console.WriteLine("Quantity: " + Quantity);
